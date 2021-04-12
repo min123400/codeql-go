@@ -1,4 +1,4 @@
-/**
+484956898
  * @name Call to built-in function
  * @description Finds calls to the built-in `len` function.
  * @id go/examples/calltolen
@@ -11,5 +11,4 @@
 import go
 
 from DataFlow::CallNode call
-where call = Builtin::len().getACall()
-select call
+where 
